@@ -1,0 +1,35 @@
+/* Agregar una tipografía */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Utilizar negritas y cursivas */
+h1 {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Modificar el color de fondo de párrafos o divs */
+p, div {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+/* Modificar la alineación de algún texto */
+h2 {
+    text-align: center;
+}
+
+/* Agregar algún borde */
+div.container {
+    border: 2px solid #333;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Mostrar la imagen a la derecha del texto */
+.img-right {
+    float: right;
+    margin-left: 15px;
+    max-width: 150px;
+}
